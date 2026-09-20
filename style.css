@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #3e2723; 
-  --accent-color: #d7ccc8;  
-  --text-color: #333;
-  --bg-color: #fafafa;
+  --primary-color: #cf0000; 
+  --accent-color: #ffffff;  
+  --text-color: rgb(54, 0, 0);
+  --bg-color: #000000;
 }
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: serif
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -663,3 +663,4 @@ input[type="time"]::-webkit-calendar-picker-indicator {
       color: #333;
   }
 }
+
